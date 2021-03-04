@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+<!--    <project>-->
+<!--        <name>MOOIN SHOP IN</name>-->
+<!--        <path>/Users/terryan/Documents/CompanyProject/MOOIN_SHOP_IN</path>-->
+<!--        <result-path>app/build/outputs/apk/debug/app-debug.apk</result-path>-->
+<!--        <default-branch>master</default-branch>-->
+<!--        <output-folder>kiosk</output-folder>-->
+<!--        <build-script>:app:assembleDebug</build-script>-->
+<!--        <package-list>-->
+<!--            <item name="zeroeyes32">-->
+<!--                <directory>zeroeyes</directory>-->
+<!--                <output>in32.apk</output>-->
+<!--            </item>-->
+<!--            <item name="zeroeyes">-->
+<!--                <directory>zeroeyes</directory>-->
+<!--                <output>in.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="groo32">-->
+<!--                <directory>groo</directory>-->
+<!--                <output>in32.apk</output>-->
+<!--            </item>-->
+<!--            <item name="groo">-->
+<!--                <directory>groo</directory>-->
+<!--                <output>in.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="plana">-->
+<!--                <directory>plana</directory>-->
+<!--                <output>in.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="studys">-->
+<!--                <directory>studys</directory>-->
+<!--                <output>in.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="iruri32">-->
+<!--                <directory>iruri</directory>-->
+<!--                <output>in32.apk</output>-->
+<!--            </item>-->
+<!--            <item name="iruri">-->
+<!--                <directory>iruri</directory>-->
+<!--                <output>in.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="mentors32">-->
+<!--                <directory>mentors</directory>-->
+<!--                <output>in32.apk</output>-->
+<!--            </item>-->
+<!--            <item name="mentors">-->
+<!--                <directory>mentors</directory>-->
+<!--                <output>in.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="synergy32">-->
+<!--                <directory>synergy</directory>-->
+<!--                <output>in32.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="with32">-->
+<!--                <directory>with</directory>-->
+<!--                <output>in32.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="nest32">-->
+<!--                <directory>nest</directory>-->
+<!--                <output>in32.apk</output>-->
+<!--            </item>-->
+<!--        </package-list>-->
+<!--    </project>-->
+<!--    <project>-->
+<!--        <name>MOOIN SHOP OUT</name>-->
+<!--        <path>/Users/terryan/Documents/CompanyProject/MOOIN_SHOP_OUT</path>-->
+<!--        <result-path>app/build/outputs/apk/debug/app-debug.apk</result-path>-->
+<!--        <default-branch>master</default-branch>-->
+<!--        <output-folder>kiosk</output-folder>-->
+<!--        <build-script>:app:assembleDebug</build-script>-->
+<!--        <package-list>-->
+<!--            <item name="zeroeyes">-->
+<!--                <directory>zeroeyes</directory>-->
+<!--                <output>out.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="groo">-->
+<!--                <directory>groo</directory>-->
+<!--                <output>out.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="plana">-->
+<!--                <directory>plana</directory>-->
+<!--                <output>out.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="studys">-->
+<!--                <directory>studys</directory>-->
+<!--                <output>out.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="iruri">-->
+<!--                <directory>iruri</directory>-->
+<!--                <output>out.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="mentors">-->
+<!--                <directory>mentors</directory>-->
+<!--                <output>out.apk</output>-->
+<!--            </item>-->
+
+<!--            <item name="synergy">-->
+<!--                <directory>synergy</directory>-->
+<!--                <output>out.apk</output>-->
+<!--            </item>-->
+<!--        </package-list>-->
+<!--    </project>-->
+    <project>
+        <name>ANDROID</name>
+        <path>/Users/rlaru/StudioProjects/MOOIN_ANDROID</path>
+        <result-path>app/build/outputs/bundle/release/app-release.aab</result-path>
+        <default-branch>master</default-branch>
+        <output-folder>android</output-folder>
+        <build-script>:app:bundleRelease</build-script>
+        <package-list>
+            <item name="iruri">
+                <output>iruri.aab</output>
+            </item>
+            <item name="mentors">
+                <output>mentors.aab</output>
+            </item>
+            <item name="synergy">
+                <output>synergy.aab</output>
+            </item>
+            <item name="plana">
+                <output>plana.aab</output>
+            </item>
+            <item name="groo">
+                <output>groo.aab</output>
+            </item>
+            <item name="studys">
+                <output>studys.aab</output>
+            </item>
+
+            <item name="nest">
+                <output>nest.aab</output>
+            </item>
+            <item name="with">
+                <output>with.aab</output>
+            </item>
+
+            <item name="zeroeyes">
+                <output>zeroeyes.aab</output>
+            </item>
+            <item name="tium">
+                <output>tium.aab</output>
+            </item>
+            <item name="marmara">
+                <output>marmara.aab</output>
+            </item>
+            <item name="neulbom">
+                <output>neulbom.aab</output>
+            </item>
+            <item name="grooon">
+                <output>grooon.aab</output>
+            </item>
+            <item name="lotze">
+                <output>lotze.aab</output>
+            </item>
+            <item name="exito">
+                <output>exito.aab</output>
+            </item>
+            <item name="monde">
+                <output>monde.aab</output>
+            </item>
+            <item name="am">
+                <output>am.aab</output>
+            </item>
+            <item name="dstudy">
+                <output>dstudy.aab</output>
+            </item>
+            <item name="seodang">
+                <output>seodang.aab</output>
+            </item>
+            <item name="beontop">
+                <output>beontop.aab</output>
+            </item>
+            <item name="splan">
+                <output>splan.aab</output>
+            </item>
+            <item name="fruitstudy">
+                <output>fruitstudy.aab</output>
+            </item>
+            <item name="greenbear">
+                <output>greenbear.aab</output>
+            </item>
+            <item name="cloverstudy">
+                <output>cloverstudy.aab</output>
+            </item>
+            <item name="dstudy_gonggan">
+                <output>dstudy_gonggan.aab</output>
+            </item>
+        </package-list>
+    </project>
+</config>

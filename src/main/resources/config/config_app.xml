@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <project>
+        <name>ANDROID</name>
+        <path>/Users/rlaru/StudioProjects/MOOIN_ANDROID</path>
+        <result-path>app/build/outputs/bundle/release/app-release.aab</result-path>
+        <default-branch>master</default-branch>
+        <output-folder>android</output-folder>
+        <build-script>:app:bundleRelease</build-script>
+        <package-list>
+            <item name="iruri">
+                <output>iruri.aab</output>
+            </item>
+            <item name="mentors">
+                <output>mentors.aab</output>
+            </item>
+            <item name="synergy">
+                <output>synergy.aab</output>
+            </item>
+            <item name="plana">
+                <output>plana.aab</output>
+            </item>
+            <item name="groo">
+                <output>groo.aab</output>
+            </item>
+            <item name="studys">
+                <output>studys.aab</output>
+            </item>
+
+            <item name="nest">
+                <output>nest.aab</output>
+            </item>
+            <item name="with">
+                <output>with.aab</output>
+            </item>
+
+            <item name="zeroeyes">
+                <output>zeroeyes.aab</output>
+            </item>
+            <item name="tium">
+                <output>tium.aab</output>
+            </item>
+            <item name="marmara">
+                <output>marmara.aab</output>
+            </item>
+            <item name="neulbom">
+                <output>neulbom.aab</output>
+            </item>
+            <item name="grooon">
+                <output>grooon.aab</output>
+            </item>
+            <item name="lotze">
+                <output>lotze.aab</output>
+            </item>
+            <item name="exito">
+                <output>exito.aab</output>
+            </item>
+            <item name="monde">
+                <output>monde.aab</output>
+            </item>
+            <item name="am">
+                <output>am.aab</output>
+            </item>
+            <item name="dstudy">
+                <output>dstudy.aab</output>
+            </item>
+            <item name="seodang">
+                <output>seodang.aab</output>
+            </item>
+            <item name="beontop">
+                <output>beontop.aab</output>
+            </item>
+            <item name="splan">
+                <output>splan.aab</output>
+            </item>
+            <item name="fruitstudy">
+                <output>fruitstudy.aab</output>
+            </item>
+            <item name="greenbear">
+                <output>greenbear.aab</output>
+            </item>
+            <item name="cloverstudy">
+                <output>cloverstudy.aab</output>
+            </item>
+            <item name="dstudy_gonggan">
+                <output>dstudy_gonggan.aab</output>
+            </item>
+            <item name="linkstudy">
+                <output>linkstudy.aab</output>
+            </item>
+        </package-list>
+    </project>
+</config>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <project>
+        <name>MOOIN SHOP IN</name>
+        <path>/Users/rlaru/StudioProjects/MOOIN_SHOP_IN</path>
+        <result-path>app/build/outputs/apk/debug/app-debug.apk</result-path>
+        <default-branch>master</default-branch>
+        <output-folder>kiosk</output-folder>
+        <build-script>:app:assembleDebug</build-script>
+        <package-list>
+            <item name="iruri32_acs">
+                <directory>iruri</directory>
+                <output>in32.apk</output>
+            </item>
+            <item name="iruri_acs">
+                <directory>iruri</directory>
+                <output>in.apk</output>
+            </item>
+
+            <item name="synergy32_acs">
+                <directory>synergy</directory>
+                <output>in32.apk</output>
+            </item>
+
+            <item name="groo32_acs">
+                <directory>groo</directory>
+                <output>in32.apk</output>
+            </item>
+            <item name="groo_acs">
+                <directory>groo</directory>
+                <output>in.apk</output>
+            </item>
+
+            <item name="nest32">
+                <directory>nest</directory>
+                <output>in32.apk</output>
+            </item>
+            <item name="zeroeyes32_acs">
+                <directory>zeroeyes</directory>
+                <output>in32.apk</output>
+            </item>
+            <item name="mentors32_acs">
+                <directory>mentors</directory>
+                <output>in32.apk</output>
+            </item>
+        </package-list>
+    </project>
+</config>
