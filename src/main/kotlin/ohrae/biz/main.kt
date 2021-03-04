@@ -43,10 +43,8 @@ fun main(args: Array<String>) {
                     val target = directory.child(item.outputFileName)
                     output.copyTo(target, true)
                 })
-                break
             }
             executor.run(Command(project.targetDirectory, "git checkout ${project.defaultBranch}"))
-            break
         }
     }
 }
